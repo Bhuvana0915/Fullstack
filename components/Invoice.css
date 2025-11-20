@@ -1,0 +1,38 @@
+/* src/components/Invoice.css */
+.invoice-page {
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.invoice-page h2, h3 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.invoice-page table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.invoice-page th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.pay-btn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.pay-btn:hover {
+    background-color: #218838;
+}

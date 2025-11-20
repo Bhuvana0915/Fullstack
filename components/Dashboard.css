@@ -1,0 +1,51 @@
+/* Base wrapper */
+.dashboard-wrapper {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fdfdfd;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navigation bar styling */
+.dashboard-navbar {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 15px;
+}
+
+/* NavLink styling */
+.dashboard-link {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #555;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.dashboard-link:hover {
+    background-color: #f0f0f0;
+    color: #007bff;
+}
+
+.dashboard-link.active {
+    color: #007bff;
+    font-weight: bold;
+    border-bottom: 3px solid #007bff;
+}
+
+/* Outlet wrapper */
+.dashboard-content {
+    padding: 25px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+    min-height: 200px;
+}
